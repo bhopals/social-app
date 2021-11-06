@@ -1,12 +1,14 @@
 import "./online.css";
 
 export default function Online({ user }) {
+  const PF = "/assets/";
+
   return (
     <li className="rightbarFriend">
       <div className="rightbarProfileImgContainer">
         <img
           className="rightbarProfileImg"
-          src={"/assets/" + user.profilePicture}
+          src={PF + user.profilePicture}
           alt=""
         />
         <span className="rightbarOnline"></span>
