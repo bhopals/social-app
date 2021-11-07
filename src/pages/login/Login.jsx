@@ -16,6 +16,7 @@ export default function Login() {
             <input placeholder="Password" className="loginInput" />
             <button className="loginButton">Log In</button>
             <span className="loginForgot">Forgot Password?</span>
+
             <button className="loginRegisterButton">
               Create a New Account
             </button>
